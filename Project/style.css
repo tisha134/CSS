@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    /* display: flex; */
+}
+.navbar {
+    height: 71px;
+    background-color: #FFFFFF;
+    /* color: black; */
+    display: flex;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+.nav_logo {
+    height: 40px;
+    width: 156px;
+}
+.logo {
+    /* background-image: url("aliexpress_logo-removebg-preview.jpg");  */
+    background-size: cover; 
+    height: 40px;
+    width: 100%;
+    font-size: 25px;
+   
+}
+
+/* .nav_search {
+    display: flex;
+} */
+
+i {
+    display: flex;
+}
