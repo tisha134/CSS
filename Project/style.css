@@ -2,17 +2,18 @@
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
     border: border-box;
-    /* display: flex; */
+    justify-content: center;
 }
 .navbar {
     height: 71px;
     background-color: #FFFFFF;
     /* color: black; */
     display: flex;
-    position: absolute;
-    left: 20px;
-    top: 10px;
+    margin-top: 20px;
+   
 }
+
+/* box1 */
 
 .nav_logo {
     height: 40px;
@@ -27,10 +28,94 @@
    
 }
 
-/* .nav_search {
+/* Box 2 */
+.nav-search {
     display: flex;
-} */
+    /* background-color: pink; */
+    height: 34px;
+    width: 653px ;
+    border-radius: 20px;
+    border: 1px solid black;
 
-i {
+} 
+
+
+
+.search-input {
+    height: 30px;
+    width: 548px;
+    border: none;
+    margin-left: 15px;
+}
+
+#img {
+   font-size: 1rem;
+   margin-top: 10px;
+}
+
+.outerbox{
+    background-color: black;
+    height: 32px;
+    width: 57px;
+    border-radius: 20px;
+    margin-top: 1px;
+    margin-left: 10px;
+}
+
+#search-icon {
+    height: 32px;
+    width: 52px;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+}
+
+/* box 3 */
+.qrcode {
     display: flex;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+#qr {
+    font-size: 1.5rem;
+    margin-top: 2px;
+    margin-left: 20px;
+}
+
+#pre {
+    margin-left: 0px;
+}
+
+/* box 4 */
+
+.signup {
+    display: flex;
+    margin-left: 20px;
+}
+.user-img {
+    height: 32px;
+    width: 32px;
+}
+
+.signin {
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+/* box 5 */
+
+#trolley 
+{
+    height: 32px;
+    width: 32px;
+}
+
+#cart-count {
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 15px;
+    left: 78rem;
 }
