@@ -2,7 +2,7 @@
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
     border: border-box;
-    justify-content: center;
+    justify-content: center; 
 }
 .navbar {
     height: 71px;
@@ -118,4 +118,134 @@
     position: absolute;
     top: 15px;
     left: 78rem;
+}
+
+/* For first floor where our deals can be shown */
+.firstfloor{
+    /* display: flex; */
+    padding-top: 32px;
+    height: 486px;
+    width: 1200px;
+    /* background-color: pink; */
+    margin-left: 80px;
+}
+
+.dealbox {
+    display: flex;
+    height: 41px;
+    width: 1105px;
+    align-items: center;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+.boxes {
+    
+    justify-content: space-evenly;
+}
+
+#box1 {
+    height: 400px;
+    width: 352px;
+    padding: 16px 20px 20px 0px;
+    display: flex;
+    border: 0.5px solid black;
+    position: absolute;
+    left: 80px;
+    top:170px;
+
+}
+
+#box2 {
+    height: 400px;
+    width: 352px;
+    padding: 16px 20px 20px 0px;
+    display: flex;
+    border: 0.5px solid black;
+    position: absolute;
+    left: 495px;
+    top:170px;
+}
+
+#box3 {
+    height: 400px;
+    width: 352px;
+    padding: 16px 20px 20px 0px;
+    display: flex;
+    border: 0.5px solid black;
+    position: absolute;
+    left: 907px;
+    top:170px;
+}
+
+.deal-price {
+    height: 35px;
+    width: 204px;
+    background-color: #FFF6DD;
+    border-radius: 20px;
+    display: flex;
+    position: absolute;
+    top: 50px;
+    left: 85px;
+}
+
+p {
+    margin-top: 10px;
+}
+
+.container1 {
+    height: 327px;
+    width: 330px;
+    background-color: rgb(223, 223, 144);
+    display: flex;
+    position: absolute;
+    top: 58px;
+    justify-content: space-evenly;
+}
+
+.con-box1 {
+    height: 295px;
+    width: 140px;
+    background-color: rgb(200, 168, 168);
+    position: absolute;
+    top: 16px;
+    padding: 4px 4px 4px 4px;
+    left: 15px;
+}
+
+.con-box2 {
+    height: 295px;
+    width: 140px;
+    background-color: rgb(162, 59, 59);
+    position: absolute;
+    top: 16px;
+    padding: 4px 4px 4px 4px;
+    left: 170px;
+}
+
+#curler {
+    height: 141px;
+    width: 141px;
+}
+
+.rating
+ {
+    height: 18px;
+    width: 137px;
+    position: absolute;
+    top: 260px;
+ }
+
+#star1 {
+    height: 13px;
+    width: 13px;
+}
+
+h2 {
+    font-size: 32px;
+    position: absolute;
+    left: 36rem;
+    top: 7rem;
 }
