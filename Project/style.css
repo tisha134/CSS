@@ -4,13 +4,12 @@
      /* overflow: hidden;  */
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
-
     justify-content: center; 
 }
 
 body {
     overflow-x: hidden;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
   }
   
 .navbar {
@@ -218,8 +217,9 @@ h2 {
     border-radius: 20px;
     display: flex;
     position: absolute;
-    top: 50px;
-    left: 85px;
+    top: 12px;
+    left: 72px;
+    align-items: center;
 }
 
 p {
@@ -258,7 +258,7 @@ p {
 
 #curler {
     height: 141px;
-    width: 141px;
+    width: 132px;
 }
 
 .rating
@@ -333,3 +333,46 @@ h2 {
   .dropdown:hover .drop-content {
     display: block;
   }
+
+.site-footer {
+    height: 269px;
+    /* width: 1280px; */
+    padding-top: 30px;
+    background-color: rgb(119, 119, 219);
+}
+
+.footer-copyright {
+    height: 80px;
+    background-color: black;
+}
+
+.parah1{
+    width: 552px;
+    height: 112px;
+    padding: 0px 40px 25px 0px;
+}   
+
+.parah2 {
+    width: 552px;
+    height: 94px;
+    padding: 0px 0px 25px 0px;
+}
+
+.parah3 {
+    width: 552px;
+    height: 51px;
+    padding: 0px 40px 0px 0px;
+}
+
+.parah4 {
+    width: 552px;
+    height: 87px;
+    padding: 0px 40px 0px 0px;
+}
+
+.container {
+    height: 239px;
+    width: 1104px;
+    padding: 0px 0px 40px 0px;
+    margin: 0px 88px 0px 88px;
+}
