@@ -336,13 +336,14 @@ h2 {
 
 .site-footer {
     height: 269px;
-    /* width: 1280px; */
+    width: 100%;
     padding-top: 30px;
     background-color: #E8E8E8
 }
 
 .footer-copyright {
     height: 80px;
+    width: 100%;
     background-color: black;
 }
 
@@ -401,7 +402,7 @@ h2 {
 .left-box {
     height: 251px;
     width: 165px;
-    background-color: rgb(232, 155, 101);
+    /* background-color: rgb(232, 155, 101); */
     margin: 0px 16px 0px 0px; 
     position: absolute;
     left: 5rem;
@@ -410,7 +411,7 @@ h2 {
 .right-box {
     height: 251px;
     width: 157px;
-    background-color: rgb(118, 199, 240);
+    /* background-color: rgb(118, 199, 240); */
     margin: 0px 40px 0px 0px;
     position: absolute;
     left: 16rem;
@@ -420,7 +421,7 @@ h2 {
 .box3rd {
     height: 251px;
     width: 157px;
-    background-color: rgb(204, 120, 162);
+    /* background-color: rgb(204, 120, 162); */
     margin: 0px 40px 0px 0px;
     position: absolute;
     left: 27rem;
@@ -431,7 +432,7 @@ h2 {
     height: 251px;
     width: 374px;
     padding: 0px 20px 0px 0px;
-    background-color: rgb(223, 189, 189);
+    /* background-color: rgb(223, 189, 189); */
     position: absolute;
     left: 40rem;
     top: 42rem;
@@ -439,9 +440,16 @@ h2 {
 
 .stay-connected {
     height: 251px;
-    width: 177px;
-    background-color: rgb(171, 235, 171);
+    width: 200px;
+    /* background-color: rgb(171, 235, 171); */
     position: absolute;
     top: 42rem;
     left: 65rem;
+}
+
+.paywith {
+    height: 28px;
+    width: 354px;
+    margin: 16px 0px 5px 0px;
+    font-size: 16px;
 }
