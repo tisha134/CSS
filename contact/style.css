@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+
+    height: 72px;
+    /* background-color: darkorange; */
+}
+
+.nav-text {
+    display: flex;
+    color: black;
+    /* background-color: red; */
+    width: 30rem;
+    justify-content: space-evenly;
+    position: absolute;
+    left: 50rem;
+    top: 1.5rem;
+    font-weight: 600;
+}
+
+#para1 {
+    /* position: absolute;
+    top: 9rem;
+    left: 11rem; */
+    font-size: 230%;
+    font-weight: 900;
+}
+
+.heading {
+    height: 10rem;
+    width: 70rem;
+    /* background-color: deeppink; */
+    position: absolute;
+    top: 7rem;
+    left: 10rem;
+}
+
+.main {
+    /* background-color: indianred; */
+    height: 24rem;
+    width: 70rem;
+    margin-top: 11rem;
+    margin-left: 9rem;
+}
+
+#img {
+    height: 24rem;
+    margin-left: 34rem;
+}
+
+#btn1 {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 16rem;
+    left: 10rem;
+    height: 2rem;
+    width: 12rem;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+#btn2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 16rem;
+    left: 25rem;
+    height: 2rem;
+    width: 12rem;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+#btn3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 18.5rem;
+    left: 10rem;
+    height: 2rem;
+    width: 27rem;
+    background-color: none;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+}
+
+#text1 {
+    width: 25rem;
+    position: absolute;
+    top: 22rem;
+    left: 11.2rem;
+}
+
+#text2 {
+    width: 25rem;
+    position: absolute;
+    top: 25rem;
+    left: 11.2rem;
+}
+
+#text3 {
+    width: 25rem;
+    position: absolute;
+    top: 28rem;
+    left: 11.2rem;
+    height: 8rem;
+}
+
+#btn4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 36.5rem;
+    left: 24rem;
+    height: 2rem;
+    width: 12rem;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+#img2 {
+    position: absolute;
+    top: 0.5rem;
+    left: 5rem;
+}
