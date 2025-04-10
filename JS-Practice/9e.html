@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>9E</title>
+  </head>
+  <body>
+    <input class="js-input" onkeydown="handleKeyDown(event)">
+    <button onclick="
+       displayMsg();
+    "class="js-name">Submit</button>
+    
+    <p class="js-final-output"></p>
+
+    <script>
+      function handleKeyDown(event)
+      {
+        if(event.key === 'Enter')
+        {
+          displayMsg();
+        }
+      }
+      function displayMsg ()
+      {
+        const name = document.querySelector('.js-input').value;
+          document.querySelector('.js-final-output')
+          .innerHTML = `Your name is : ${name}`;
+      }
+      
+    </script>
+  </body>
+</html>
