@@ -4,6 +4,9 @@
     <title>Calculator</title>
   </head>
 <body>
+  
+  <p class="js-display"></p>
+
   <p>
     <button onclick="
         updateCalculation(' 1 ');
@@ -75,25 +78,35 @@
       // it can potentially be given harmful code to run.
       // Only use eval() for learning purposes.
         calculation = eval(calculation);
-          console.log(calculation);
+        displayCalculation();
       ">=</button>
 
       <button onclick="
         calculation = '';
-        console.log(calculation);
+        displayCalculation();
         localStorage.setItem('calculation', calculation);
         
       ">Clear</button>
     </p>
   <script>
     let calculation = localStorage.getItem('calculation') || '';
+
+    displayCalculation();
     
     function updateCalculation(value)
     {
       calculation += value;
-      console.log(calculation);
+      displayCalculation();
       localStorage.setItem('calculation', calculation);
+      
     }
+
+    function displayCalculation()
+    {
+      document.querySelector('.js-display').innerHTML = calculation;
+    }
+
+    
   </script>
 </body>
 </html>
