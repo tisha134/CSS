@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>11N</title>
+  </head>
+  <body>
+    <script>
+     function countWords(words)
+     {
+      const result = {};
+
+      for(let i = 0; i < words.length; i++)
+      {
+        const word = words[i]; //save value of index in a variable
+        if (!result[word]) // checks if word is not equal to previous word 
+        {
+          result[word] = 1; //so checker moves to next word
+        }else
+        {
+          result[word]++; // if it matches the previous word it will add to tha quantity
+        }
+      }
+      return result;
+     }
+
+     console.log(countWords(['apple', 'grape', 'apple', 'apple', 'grape']));
+    </script>
+  </body>
+</html>
