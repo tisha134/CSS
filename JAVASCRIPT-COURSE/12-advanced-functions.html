@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Advanced Funtions</title>
+  </head>
+  <body>
+    <script>
+
+      /*
+      function greeting ()
+      {
+        console.log('Hello!');
+      }
+
+      greeting ();
+
+      const num = 2;
+
+      const function1 = function() //greeting function name is not needed in this because we can directly access the function 
+      {
+        console.log('Hello2!');
+      }
+
+      console.log(function1);
+      console.log(typeof function1);
+      function1(); // it displays Hello2! in the console
+
+      const object1 = {
+        num: 2,
+        fun: function() // this saves a function inside a object under the property of fun
+        { //anonymous function
+          console.log('Hello3!');
+        }
+      }
+      object1.fun();
+
+      function display(param)
+      {
+        console.log(param);
+      }
+
+      display(2); //passing a value into a function
+//passing a function into another function
+      function run(param)
+      {
+        param();
+      }
+
+      run(function () // the function that we are passing to another function is called "call back function "
+    {
+      console.log('Hello4!');
+    }) */
+
+      setTimeout(function () //asynchronous code: won't wait for a line to finish before going to the next line
+    {
+      console.log('Timeout');
+      console.log('Timeout2');
+    }, 5000); //setTimeout is a function that takes a function as a parameter and a time in milliseconds as a parameter
+
+    console.log('Next line');
+    </script>
+  </body>
+</html>
