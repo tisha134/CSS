@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>12C</title>
+  </head>
+  <body>
+    <button onclick="updateBtn();" class="js-toggle">Start</button>
+    <script>
+      function updateBtn ()
+      {
+        const button = document.querySelector('.js-toggle');
+        setTimeout(function()
+      {
+        button.innerHTML = 'Finished!';
+      }, 1000);
+    }
+    </script>
+  </body>
+</html>

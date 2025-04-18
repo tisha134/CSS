@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>12E</title>
+  </head>
+  <body>
+    <button onclick="
+      updateFunction();
+      ">Add to Cart</button>
+    <p class="js-added"></p>
+  <script>
+    let timeoutId;
+    function updateFunction ()
+    {
+      const inputElem = document.querySelector('.js-added');
+      inputElem.innerHTML = 'Added!';
+
+      clearTimeout(timeoutId);
+
+      timeoutId = setTimeout(function()
+      {
+        inputElem.innerHTML = '';
+      }, 2000)
+    }
+    
+  </script>
+  </body>
+</html>
