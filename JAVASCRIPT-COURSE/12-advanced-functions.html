@@ -50,7 +50,7 @@
     {
       console.log('Hello4!');
     }) */
-
+/*
       setTimeout(function () //asynchronous code: won't wait for a line to finish before going to the next line
     {
       console.log('Timeout');
@@ -58,6 +58,26 @@
     }, 5000); //setTimeout is a function that takes a function as a parameter and a time in milliseconds as a parameter
 
     console.log('Next line');
+
+    setInterval(function ()
+  {
+    console.log('interval')
+  }, 3000);
+
+  console.log('next line2'); */
+
+      [ // this will loop through the array and for each value use a parameter of the value in the function 
+        'make dinner',
+        'wash dishes',
+        'watch youtube'
+      ].forEach (function (value, index) {
+        if (value === 'wash dishes')
+        {
+          return;  //does the same thing as continue
+        }
+        console.log(index);
+        console.log(value);
+      });
     </script>
   </body>
 </html>
