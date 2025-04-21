@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>12I</title>
+  </head>
+  <body>
+    <script>
+      function countPositive(nums) {
+        let postiveNumber = 0;
+        nums.forEach(nums => {
+          if (nums > 0) {
+            postiveNumber++;
+          }
+        });
+
+        return postiveNumber;
+      }
+
+      console.log(countPositive([1, -3, 5]));
+      console.log(countPositive([-2, 3, -5, 7, 10]));
+    </script>
+  </body>
+</html>
